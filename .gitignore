@@ -1,0 +1,32 @@
+# 私有配置、对话、模型和生成结果不提交。
+.local/
+.runtime/
+.recovery/
+.venv*/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.sqlite*
+*.db
+*.log
+*.jsonl
+*.pem
+*.key
+*token*
+*.zip
+dist/
+build/
+*.egg-info/
+assets/models/
+assets/runtime/
+assets/cues/
+assets/wake_config.json
+captures/
+recordings/
+.DS_Store
+Thumbs.db
+# 内部讨论和发布过程说明仅保留在本地。
+docs/VALIDATION.md
+docs/PUBLISH.md

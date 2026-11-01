@@ -1,0 +1,4 @@
+# 可选：电脑端不用Windows语音时，再安装此组CPU依赖。
+-r requirements-host.txt
+sherpa-onnx==2.0.0
+numpy>=1.26,<3

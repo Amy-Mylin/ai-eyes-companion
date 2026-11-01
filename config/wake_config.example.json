@@ -1,0 +1,9 @@
+{
+  "phrase": "你好小瞳",
+  "tokens": "n ǐ h ǎo x iǎo t óng",
+  "threshold": 0.25,
+  "score": 1.0,
+  "cooldown_seconds": 2.0,
+  "capture_channel": 2,
+  "acknowledgment": "我在"
+}
