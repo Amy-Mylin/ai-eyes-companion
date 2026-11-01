@@ -4,6 +4,10 @@ on:
   pull_request:
 permissions:
   contents: read
+# Windows运行器的默认输出编码可能无法表示中文帮助信息。
+env:
+  PYTHONUTF8: '1'
+  PYTHONIOENCODING: utf-8
 jobs:
   tests:
     strategy:
